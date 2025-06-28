@@ -1,0 +1,630 @@
+{
+  "schedule": {
+    "week": [
+      {
+        "id": 1,
+        "weekAlternation": 1,
+        "weekDays" : [
+          {
+            "id": "1_mon",
+            "dayName": "Понедельник",
+            "lessons": [
+              {
+                "id": "1_mon_1",
+                "time": {
+                  "start": "15:40",
+                  "end": "17:15"
+                },
+                "subject": "БЖЧ",
+                "teacher": {
+                  "name": "Шубенко Т.П.",
+                  "title": "ст. пр."
+                },
+                "audience": "а. 32, к.1",
+                "type": "for-one-group"
+              },
+              {
+                "id": "1_mon_2",
+                "time": {
+                  "start": "17:45",
+                  "end": "19:20"
+                },
+                "subject": "ПИиПП",
+                "teacher": {
+                  "name": "Панченко",
+                  "title": ""
+                },
+                "audience": "а. 104, к.11",
+                "type": "for-all-groups"
+              }
+            ]
+          },
+          {
+            "id": "1_tue",
+            "dayName": "Вторник",
+            "lessons": [
+              {
+                "id": "1_tue_1",
+                "time": {
+                  "start": "12:00",
+                  "end": "13:35"
+                },
+                "subject": "ММО",
+                "teacher": {
+                  "name": "Чваньков А.А.",
+                  "title": "пр."
+                },
+                "audience": "а. 110б, к.11а",
+                "type": "for-one-group"
+              },
+              {
+                "id": "1_tue_2",
+                "time": {
+                  "start": "13:55",
+                  "end": "15:30"
+                },
+                "subject": "МиАКГ",
+                "teacher": {
+                  "name": "Полозков Ю.В.",
+                  "title": "доц."
+                },
+                "audience": "а. 219, к.11а",
+                "type": "for-one-group"
+              },
+              {
+                "id": "1_tue_3",
+                "time": {
+                  "start": "17:45",
+                  "end": "19:20"
+                },
+                "subject": "Р WEB",
+                "teacher": {
+                  "name": "Прибыльская Н.М.",
+                  "title": ""
+                },
+                "audience": "а. 507, к.11",
+                "type": "for-all-groups"
+              }
+            ]
+          },
+          {
+            "id": "1_wed",
+            "dayName": "Среда",
+            "lessons": [
+              {
+                "id": "1_wed_1",
+                "time": {
+                  "start": "12:00",
+                  "end": "13:35"
+                },
+                "subject": "АЯвПД",
+                "teacher": {
+                  "name": "Ваник И.Ю.",
+                  "title": ""
+                },
+                "audience": "а. 309, к.2",
+                "type": "for-one-group"
+              },
+              {
+                "id": "1_wed_2",
+                "time": {
+                  "start": "13:55",
+                  "end": "15:30"
+                },
+                "subject": "МиОПТС",
+                "teacher": {
+                  "name": "Прихожий А.А.",
+                  "title": "проф."
+                },
+                "audience": "а. 439, к.1",
+                "type": "for-all-groups"
+              },
+              {
+                "id": "1_wed_3",
+                "time": {
+                  "start": "15:40",
+                  "end": "17:15"
+                },
+                "subject": "БЖЧ",
+                "teacher": {
+                  "name": "Калиниченко М.Л.",
+                  "title": "ст. пр."
+                },
+                "audience": "а. 439, к.1",
+                "type": "for-all-groups"
+              },
+              {
+                "id": "1_wed_4",
+                "time": {
+                  "start": "17:45",
+                  "end": "19:20"
+                },
+                "subject": "МиАКГ",
+                "teacher": {
+                  "name": "Полозков Ю.В.",
+                  "title": ""
+                },
+                "audience": "а. 507, к.11а",
+                "type": "for-all-groups"
+              }
+            ]
+          },
+          {
+            "id": "1_thu",
+            "dayName": "Четверг",
+            "lessons": [
+              {
+                "id": "1_thu_1",
+                "time": {
+                  "start": "9:55",
+                  "end": "11:40"
+                },
+                "subject": "АЯвПД",
+                "teacher": {
+                  "name": "Ваник И.Ю.",
+                  "title": ""
+                },
+                "audience": "а. 431, к.2",
+                "type": "for-one-group"
+              },
+              {
+                "id": "1_thu_2",
+                "time": {
+                  "start": "12:00",
+                  "end": "13:35"
+                },
+                "subject": "ММО",
+                "teacher": {
+                  "name": "Ковалева И.Л.",
+                  "title": "доц."
+                },
+                "audience": "а. 450, к.1",
+                "type": "for-all-groups"
+              },
+              {
+                "id": "1_thu_3",
+                "time": {
+                  "start": "13:55",
+                  "end": "15:30"
+                },
+                "subject": "ОБиПвС IT",
+                "teacher": {
+                  "name": "Хвитько Е.А.",
+                  "title": "ст. пр."
+                },
+                "audience": "а. 450, к.1",
+                "type": "for-all-groups"
+              },
+              {
+                "id": "1_thu_4",
+                "time": {
+                  "start": "15:40",
+                  "end": "17:15"
+                },
+                "subject": "КП",
+                "teacher": {
+                  "name": "Прихожий А.А.",
+                  "title": "ст. пр."
+                },
+                "audience": "а. 214, к.11",
+                "type": "for-one-group"
+              }
+            ]
+          },
+          {
+            "id": "1_fri",
+            "dayName": "Пятница",
+            "lessons": [
+              {
+                "id": "1_fri_1",
+                "time": {
+                  "start": "13:55",
+                  "end": "15:30"
+                },
+                "subject": "МТ",
+                "teacher": {
+                  "name": "Кондратенок Е.В.",
+                  "title": "ст. пр."
+                },
+                "audience": "а. 306, к.11",
+                "type": "for-all-groups"
+              },
+              {
+                "id": "1_fri_2",
+                "time": {
+                  "start": "15:40",
+                  "end": "17:15"
+                },
+                "subject": "ОБиПвС IT",
+                "teacher": {
+                  "name": "Хвитько Е.А.",
+                  "title": "ст. пр."
+                },
+                "audience": "а. 312, к.1",
+                "type": "for-one-group"
+              },
+              {
+                "id": "1_fri_3",
+                "time": {
+                  "start": "17:45",
+                  "end": "19:20"
+                },
+                "subject": "МТ",
+                "teacher": {
+                  "name": "Кондратенок Е.В.",
+                  "title": "ст. пр."
+                },
+                "audience": "а. 216, к.11",
+                "type": "for-one-group"
+              }
+            ]
+          },
+          {
+            "id": "1_sat",
+            "dayName": "Суббота",
+            "lessons": [
+              {
+                "id": "1_sat_1",
+                "time": {
+                  "start": "12:00",
+                  "end": "13:35"
+                },
+                "subject": "ОБиПвС IT",
+                "teacher": {
+                  "name": "Хвитько Е.А.",
+                  "title": "пр."
+                },
+                "audience": "а. 30, к.7",
+                "type": "for-one-group"
+              },
+              {
+                "id": "1_sat_2",
+                "time": {
+                  "start": "13:55",
+                  "end": "15:30"
+                },
+                "subject": "ЭПИ",
+                "teacher": {
+                  "name": "Стрельченок О.А.",
+                  "title": "ст. пр."
+                },
+                "audience": "а. 2П, к.8",
+                "type": "for-all-groups"
+              },
+              {
+                "id": "1_sat_3",
+                "time": {
+                  "start": "15:40",
+                  "end": "17:15"
+                },
+                "subject": "ЭПИ",
+                "teacher": {
+                  "name": "Стрельченок О.А.",
+                  "title": "ст. пр."
+                },
+                "audience": "а. 312, к.1",
+                "type": "for-one-group"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "weekAlternation": 2,
+        "weekDays" : [
+          {
+            "id": "2_mon",
+            "dayName": "Понедельник",
+            "lessons": [
+              {
+                "id": "2_mon_1",
+                "time": {
+                  "start": "15:40",
+                  "end": "17:15"
+                },
+                "subject": "ПИиПП",
+                "teacher": {
+                  "name": "Панченко",
+                  "title": ""
+                },
+                "audience": "а. 363, к.1",
+                "type": "for-one-group"
+              },
+              {
+                "id": "2_mon_2",
+                "time": {
+                  "start": "17:45",
+                  "end": "19:20"
+                },
+                "subject": "КП МТ",
+                "teacher": {
+                  "name": "Кондратенок Е.В.",
+                  "title": ""
+                },
+                "audience": "а. 110б, к.11а",
+                "type": "for-one-group"
+              }
+            ]
+          },
+          {
+            "id": "2_tue",
+            "dayName": "Вторник",
+            "lessons": [
+              {
+                "id": "2_tue_1",
+                "time": {
+                  "start": "13:55",
+                  "end": "15:30"
+                },
+                "subject": "МиОПТС",
+                "teacher": {
+                  "name": "Чваньков А.А.",
+                  "title": "пр."
+                },
+                "audience": "а. 220, к.11а",
+                "type": "for-one-group"
+              },
+              {
+                "id": "2_tue_2",
+                "time": {
+                  "start": "17:45",
+                  "end": "19:20"
+                },
+                "subject": "Р WEB",
+                "teacher": {
+                  "name": "Прибыльская Н.М.",
+                  "title": ""
+                },
+                "audience": "а. 507, к.11",
+                "type": "for-all-groups"
+              }
+            ]
+          },
+          {
+            "id": "2_wed",
+            "dayName": "Среда",
+            "lessons": [
+              {
+                "id": "2_wed_1",
+                "time": {
+                  "start": "12:00",
+                  "end": "13:35"
+                },
+                "subject": "АЯвПД",
+                "teacher": {
+                  "name": "Ваник И.Ю.",
+                  "title": ""
+                },
+                "audience": "а. 441, к.11",
+                "type": "for-one-group"
+              },
+              {
+                "id": "2_wed_2",
+                "time": {
+                  "start": "13:55",
+                  "end": "15:30"
+                },
+                "subject": "МиОПТС",
+                "teacher": {
+                  "name": "Прихожий А.А.",
+                  "title": "проф."
+                },
+                "audience": "а. 439, к.1",
+                "type": "for-all-groups"
+              },
+              {
+                "id": "2_wed_3",
+                "time": {
+                  "start": "15:40",
+                  "end": "17:15"
+                },
+                "subject": "БЖЧ",
+                "teacher": {
+                  "name": "Калиниченко М.Л.",
+                  "title": "ст. пр."
+                },
+                "audience": "а. 439, к.1",
+                "type": "for-all-groups"
+              },
+              {
+                "id": "2_wed_4",
+                "time": {
+                  "start": "17:45",
+                  "end": "19:20"
+                },
+                "subject": "МиАКГ",
+                "teacher": {
+                  "name": "Полозков Ю.В.",
+                  "title": ""
+                },
+                "audience": "а. 507, к.11а",
+                "type": "for-all-groups"
+              }
+            ]
+          },
+          {
+            "id": "2_thu",
+            "dayName": "Четверг",
+            "lessons": [
+              {
+                "id": "2_thu_1",
+                "time": {
+                  "start": "9:55",
+                  "end": "11:40"
+                },
+                "subject": "АЯвПД",
+                "teacher": {
+                  "name": "Ваник И.Ю.",
+                  "title": ""
+                },
+                "audience": "а. 508а, к.11",
+                "type": "for-one-group"
+              },
+              {
+                "id": "2_thu_2",
+                "time": {
+                  "start": "12:00",
+                  "end": "13:35"
+                },
+                "subject": "ММО",
+                "teacher": {
+                  "name": "Ковалева И.Л.",
+                  "title": "доц."
+                },
+                "audience": "а. 450, к.1",
+                "type": "for-all-groups"
+              },
+              {
+                "id": "2_thu_3",
+                "time": {
+                  "start": "13:55",
+                  "end": "15:30"
+                },
+                "subject": "ОБиПвС IT",
+                "teacher": {
+                  "name": "Хвитько Е.А.",
+                  "title": "ст. пр."
+                },
+                "audience": "а. 450, к.1",
+                "type": "for-all-groups"
+              },
+              {
+                "id": "2_thu_4",
+                "time": {
+                  "start": "15:40",
+                  "end": "17:15"
+                },
+                "subject": "КП",
+                "teacher": {
+                  "name": "Прихожий А.А.",
+                  "title": "ст. пр."
+                },
+                "audience": "а. 214, к.11",
+                "type": "for-one-group"
+              }
+            ]
+          },
+          {
+            "id": "2_fri",
+            "dayName": "Пятница",
+            "lessons": [
+              {
+                "id": "2_fri_1",
+                "time": {
+                  "start": "9:55",
+                  "end": "11:40"
+                },
+                "subject": "MиАКГ",
+                "teacher": {
+                  "name": "Полозков Ю.В.",
+                  "title": "доц."
+                },
+                "audience": "а. 220, к.11а",
+                "type": "for-one-group"
+              },
+              {
+                "id": "2_fri_2",
+                "time": {
+                  "start": "12:00",
+                  "end": "13:35"
+                },
+                "subject": "Р WEB",
+                "teacher": {
+                  "name": "Хвитько Е.А.",
+                  "title": "пр."
+                },
+                "audience": "а. 314а, к.1",
+                "type": "for-one-group"
+              },
+              {
+                "id": "2_fri_3",
+                "time": {
+                  "start": "13:55",
+                  "end": "15:30"
+                },
+                "subject": "МТ",
+                "teacher": {
+                  "name": "Кондратенок Е.В.",
+                  "title": "ст. пр."
+                },
+                "audience": "а. 306, к.11",
+                "type": "for-all-groups"
+              },
+              {
+                "id": "2_fri_4",
+                "time": {
+                  "start": "15:40",
+                  "end": "17:15"
+                },
+                "subject": "ОБиПвС IT",
+                "teacher": {
+                  "name": "Хвитько Е.А.",
+                  "title": "ст. пр."
+                },
+                "audience": "а. 312, к.1",
+                "type": "for-one-group"
+              },
+              {
+                "id": "2_fri_5",
+                "time": {
+                  "start": "17:45",
+                  "end": "19:20"
+                },
+                "subject": "МТ",
+                "teacher": {
+                  "name": "Кондратенок Е.В.",
+                  "title": "ст. пр."
+                },
+                "audience": "а. 216, к.11",
+                "type": "for-one-group"
+              }
+            ]
+          },
+          {
+            "id": "2_sat",
+            "dayName": "Суббота",
+            "lessons": [
+              {
+                "id": "2_sat_1",
+                "time": {
+                  "start": "13:55",
+                  "end": "15:30"
+                },
+                "subject": "ЭПИ",
+                "teacher": {
+                  "name": "Стрельченок О.А.",
+                  "title": "ст. пр."
+                },
+                "audience": "а. 2П, к.8",
+                "type": "for-all-groups"
+              },
+              {
+                "id": "2_sat_2",
+                "time": {
+                  "start": "15:40",
+                  "end": "17:15"
+                },
+                "subject": "К",
+                "teacher": {
+                  "name": "Станкевич",
+                  "title": "ст. пр."
+                },
+                "audience": "а. 216, к.11",
+                "type": "for-one-group"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "group": 10701123,
+      "subgroup": 1,
+      "course": 2,
+      "semester": 2,
+      "academicSemester": "2025-2025",
+      "lastUpdated": "2025-05-26"
+    }
+  }
+}
