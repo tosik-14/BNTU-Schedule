@@ -29,6 +29,14 @@ export const globalStyles = StyleSheet.create({
         fontFamily: "Montserrat-Regular",
         fontSize: 16,
     },
+    fontSB16: {
+        fontFamily: "Montserrat-SemiBold",
+        fontSize: 16,
+    },
+    fontSB14: {
+        fontFamily: "Montserrat-SemiBold",
+        fontSize: 14,
+    },
     rowWrapper: {
         flexDirection: "row",
     },
