@@ -3,6 +3,8 @@ import {WeekAlternationLegendsEnum} from "@/src/entities/schedule/week/weekAlter
 
 export interface Week {
     id: number;
+    baseWeek: number,
     weekAlternation: WeekAlternationLegendsEnum;
+    dateStart: string;
     weekDays: WeekDays[];
 }
