@@ -14,10 +14,10 @@ export default function SchedulePage () {
     if (!schedule) return <Text>Загрузка...</Text>;
 
     return (
-        <ScrollView style={[styles.container, { backgroundColor }]}>
+        <View style={[styles.container, { backgroundColor }]}>
 
             <ScheduleWeek schedule={schedule}/>
 
-        </ScrollView>
+        </View>
     );
 }
